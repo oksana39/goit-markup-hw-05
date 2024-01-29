@@ -487,11 +487,7 @@ input {
 .foot-soce-icone {
   fill: #f4f4fd;
 }
-
-.subsc-form {
-  display: flex;
-  gap: 24px;
-}
+/* !!!!!!!!!!!!!!5 HW */
 
 .subsc-text {
   color: #fff;
@@ -501,9 +497,13 @@ input {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+.subsc-form {
+  display: flex;
+  gap: 24px;
+}
 
 .subst-input {
-  width: 264p;
+  width: 264px;
   height: 40px;
   border: 1px solid #fff;
   background-color: transparent;
@@ -513,6 +513,7 @@ input {
   border-radius: 4px;
   padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
 }
 
 .subst-input::placeholder {
@@ -530,7 +531,7 @@ input {
   align-items: center;
   justify-content: center;
   font-family: inherit;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -717,7 +718,7 @@ input {
   justify-content: center;
   fill: transparent;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 .check-input:checked + .check-text span {
   background-color: #404bbf;
   border: none;
